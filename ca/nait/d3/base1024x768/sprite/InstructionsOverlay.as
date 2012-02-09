@@ -1,0 +1,2 @@
+﻿package ca.nait.d3.base1024x768.sprite{		import flash.display.MovieClip;	import flash.events.MouseEvent;
+			public class InstructionsOverlay extends MovieClip {						public function InstructionsOverlay() {			continueButton.buttonMode = true;			continueButton.addEventListener(MouseEvent.CLICK, handleContinueClick, false, 0, true);					}				protected function handleContinueClick(p_evt:MouseEvent):void{			this.visible = false;		}			}	}
